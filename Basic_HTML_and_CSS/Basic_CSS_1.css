@@ -2,3 +2,10 @@
     text-align: center;
     color: maroon;
 }
+.my_style{
+    text-align: center;
+    background-color: black;
+    color:aqua;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
