@@ -4,3 +4,12 @@ p {
     font-weight: bold;
     text-align: center;
 }
+h1{
+    color: red;
+    background: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px white;
+}
