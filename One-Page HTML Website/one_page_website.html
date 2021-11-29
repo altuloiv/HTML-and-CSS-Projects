@@ -3,66 +3,110 @@
     <head>
         <title>One Pager</title>
         <meta charset = "utf-8">
+        <link rel="stylesheet" href="./CSS/one_page_website.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&display=swap" rel="stylesheet">  
     </head>
     <body>
-        <div>
-            <nav>
-                <a href="#home" id="link"><li>HOME</li></a>
-                <a href="#gallery" id="link"><li>GALLERY</li></a>
-                <a href="#video" id="link"><li>VIDEO</li></a>
-                <a href="#contact" id="link"><li>CONTACT</li></a>
-            </nav>
+
+        <!--Home-->
+            <div id="home">
+                <div class="main">
+                    <h1>Honestly Bad Webpage</h1>
+                    <p>A brief about page on Honestly Bad.</p>
+                </div>
+            </div>
+        <!--End Home-->
+                
+        <!--Nav Links-->
+        <div class="navlinks">
+            <div class="menu">
+                <nav>
+                    <a href="#home" id="link"><li>HOME</li></a>
+                    <a href="#gallery" id="link"><li>GALLERY</li></a>
+                    <a href="#contact" id="link"><li>CONTACT</li></a>
+                </nav>
+            <!--End Nav Links-->
+            </div>
         </div>
-        <div id="home">
-            <h1>Honestly Bad Webpage</h1>
-            <p>A brief about page on Honestly Bad.</p>
-        </div>
+
+        <!--Background Video-->
+        <iframe id="myVideo" src="https://www.youtube.com/embed/bpBNoBW6Mas?autoplay=1&mute=1&loop=1"></iframe>
+        <!---END Background Video -->
 
         <!--Gallery-->
-        <section>
+        <section class="gallery">
             <div id="gallery">
-                <h1>Gallery</h1>
-                <p>Some of my videos</p>
-                <!--Pic 1-->
-                <div>
-                    <div>
-                        <img width="1080" height="720" src="./images/pic_1.jpg" alt="Go Kart Video image">
-                    </div>
+                    <h1>Gallery</h1>
+                    <p>Here are some of my most popular videos!</p>
                 </div>
-                <!--End Pic-->
-                <!--Pic 2-->
-                <div>
-                    <div>
-                        <img width="1080" height="720" src="./images/pic_2.jpg" alt="Blew up my car image">
+                <div class="flex">
+                    <!--Pic 1-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_1.jpg" alt="Go Kart Video image"">
+                        </div>
                     </div>
-                </div>
-                <!--End Pic-->
-                <!--Pic 3-->
-                <div>
-                    <div>
-                        <img width="1080" height="720" src="./images/pic_3.jpg" alt="m4gts Car Meet image">
+                    <!--End Pic-->
+                    <!--Pic 2-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_2.jpg" alt="Blew up my car image">
+                        </div>
                     </div>
+                    <!--End Pic-->
+                    <!--Pic 3-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_3.jpg" alt="m4gts Car Meet image">
+                        </div>
+                    </div>
+                    <!--End Pic-->
+                    <!--Pic 4-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_4.jpg" alt="Big Turbo 335i Video">
+                        </div>
+                    </div>
+                    <!--End Pic-->
+                    <!--Pic 5-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_5.jpg" alt="2020 Kia Forte GT Review">
+                        </div>
+                    </div>
+                    <!--End Pic-->
+                    <!--Pic 6-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_6.jpg" alt="Short Throw Shifter Forte GT Video">
+                        </div>
+                    </div>
+                    <!--End Pic-->
+                    <!--Pic 7-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_7.jpg" alt="Oil Catch Can Video">
+                        </div>
+                    </div>
+                    <!--End Pic-->
+                    <!--Pic 8-->
+                    <div class="container">
+                        <div class="photo">
+                            <img width="300" height="169" src="./images/pic_8.jpg" alt="Full Custom Exhaust Video">
+                        </div>
+                    </div>
+                    <!--End Pic-->
                 </div>
-                <!--End Pic-->
-            </div>
         </section>
-
-        <!--Video-->
-        <div id="video">
-            <div>
-                <h1>My Channel Intro</h1>
-                <div>
-                    <iframe width="1080" height="720" src="https://www.youtube.com/embed/bpBNoBW6Mas"></iframe>
-                </div>
-            </div>
-        </div>
 
         <!--Contact me-->
         <div id="contact">
-            <div>
+            <div class="contact">
                 <h2>Want me to contact you?</h2>
-                <p>Please provide the following</p>
-                <div>
+                <p>Please provide the following information.</p>
+                <div class="info">
                     <form action="" method="post">
                         <input class="rsvp" type="text" value="First Name">
                         <input class="rsvp" type="text" value="Last Name">
@@ -77,8 +121,8 @@
         </div>
 
     </body>
-    <footer>
+    <footer class="footer">
         <p>Author: Albert Tulo IV</p>
-        <a href="https://www.youtube.com/c/honestly_bad">Youtube Channel</a>
+        <a href="https://www.youtube.com/c/honestly_bad">Youtube Channel Link</a>
     </footer>
 </html>
