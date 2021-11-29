@@ -16,13 +16,13 @@ font-family: 'Oswald', sans-serif;
 }
 
 .main h1:hover{
-    transform:scale(1.05);
-    transition-duration: .5s;
+    transform:scale(1.01);
+    transition-duration: .2s;
 }
 
 .main p:hover{
-    transform:scale(1.05);
-    transition-duration: .5s;
+    transform:scale(1.01);
+    transition-duration: .2s;
 }
 #myVideo {
     width: 100%;
