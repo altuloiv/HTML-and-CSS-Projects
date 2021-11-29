@@ -15,7 +15,7 @@ h1 {
 
 }
 .container .squares:nth-child(-n+4) {
-    background-image: url("./project/images/icons/icon_1.png");
+    background-image: url("../images/icons/icon_1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -46,7 +46,7 @@ h1 {
     background: #00b200;
 }
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("./project/images/icons/icon_1.png");
+    background-image: url("../images/icons/icon_1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -67,7 +67,7 @@ h1 {
 @keyframes race{
     0%, 100%{
         transform: translateY(0px);
-        background-image: url(./project/images/icons/icon_2.png);
+        background-image: url(../images/icons/icon_2.png);
     }
     50% {
         transform: translateY(350px);
